@@ -1,17 +1,19 @@
 about:
-  description: C++ 98/11/14 manual pages for Linux/MacOS
+  description:
+  |
+    C++ 98/11/14 manual pages for Linux/MacOS
   license: GPL-3.0
   homepage: 
   head: 69c6ada
   archived: false
   latestVersion: v0.6.3
-  collectedAt: 2026-09-03T05:23:18Z
+  collectedAt: 2026-09-03T22:34:35Z
 timeline:
   created: 2010-07-03
   lastCommit: 2026-07-27
   lastRelease: 2026-07-27
 popularity:
-  star: 1441
+  star: 1442
   watcher: 21
   fork: 89
   release: 7
@@ -24,7 +26,7 @@ language:
   Vim Script: 4106
   Roff: 3278
   Makefile: 201
-totalLine: 95497
+totalBytes: 95497
 recent:
   last30d:
     since: 2026-08-04
