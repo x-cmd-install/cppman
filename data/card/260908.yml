@@ -5,7 +5,7 @@ about:
   head: 69c6ada
   archived: false
   latestVersion: "v0.6.3"
-  collectedAt: 2026-09-08T02:36:31Z
+  collectedAt: 2026-09-08T05:13:17Z
 timeline:
   created: 2010-07-03
   lastCommit: 2026-07-27
@@ -83,7 +83,7 @@ total:
   commit: 500
 ---
 path: /home/runner/.x-repo/github.com/aitjcize/cppman
-collectedAt: 2026-09-08T02:36:33Z
+collectedAt: 2026-09-08T05:13:19Z
 loc:
   Python:
     code: 1600
