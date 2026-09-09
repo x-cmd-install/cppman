@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.6.3"
   latestRelease: "v0.6.3"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:26:05Z
+  collectedAt: 2026-09-09T19:44:54Z
 timeline:
   created: 2010-07-03
   lastCommit: 2026-07-27
@@ -45,7 +45,7 @@ recent:
     openPR: 0
     closedIssue: 1
     openIssue: 0
-    commit: 12
+    commit: 0
   last90d:
     since: 2026-06-11
     release: 2
@@ -53,7 +53,7 @@ recent:
     openPR: 1
     closedIssue: 1
     openIssue: 2
-    commit: 12
+    commit: 0
   last180d:
     since: 2026-03-13
     release: 2
@@ -61,7 +61,7 @@ recent:
     openPR: 1
     closedIssue: 3
     openIssue: 2
-    commit: 18
+    commit: 0
   last360d:
     since: 2025-09-14
     release: 3
@@ -69,7 +69,7 @@ recent:
     openPR: 1
     closedIssue: 3
     openIssue: 3
-    commit: 27
+    commit: 0
   last720d:
     since: 2024-09-19
     release: 4
@@ -87,7 +87,7 @@ total:
   commit: 500
 ---
 path: /home/runner/.x-repo/github.com/aitjcize/cppman
-collectedAt: 2026-09-09T05:26:07Z
+collectedAt: 2026-09-09T19:44:55Z
 loc:
   Python:
     code: 1600
