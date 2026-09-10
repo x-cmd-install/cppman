@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 886112,
       "digest": "sha256:1ecbf58ff8508f734b2f9f628734665e4ab74db2291dccdcaa967ba221045239",
-      "download_count": 10,
+      "download_count": 11,
       "created_at": "2026-07-27T04:59:23Z",
       "updated_at": "2026-07-27T04:59:23Z",
       "browser_download_url": "https://github.com/aitjcize/cppman/releases/download/v0.6.3/cppman-0.6.3-py3-none-any.whl"
