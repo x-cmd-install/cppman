@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 814434,
       "digest": "sha256:16a782b87b0848c5202b61965402258f8fc8260cbf0867cb876992eb3d046eb0",
-      "download_count": 9,
+      "download_count": 10,
       "created_at": "2026-07-27T04:59:23Z",
       "updated_at": "2026-07-27T04:59:23Z",
       "browser_download_url": "https://github.com/aitjcize/cppman/releases/download/v0.6.3/cppman-0.6.3.tar.gz"

@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.6.3"
   latestRelease: "v0.6.3"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:18:40Z
+  collectedAt: 2026-09-10T17:50:41Z
 timeline:
   created: 2010-07-03
   lastCommit: 2026-07-27
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-07-27
   lastPrerelease: 
 popularity:
-  star: 1439
+  star: 1438
   watcher: 21
   fork: 89
   release: 7
@@ -87,7 +87,7 @@ total:
   commit: 500
 ---
 path: /home/runner/.x-repo/github.com/aitjcize/cppman
-collectedAt: 2026-09-10T05:18:41Z
+collectedAt: 2026-09-10T17:50:44Z
 loc:
   Python:
     code: 1600
