@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,438 · **Forks**: 89 · **Open issues**: 117 · **Contributors**: 31
+- **Stars**: 1,439 · **Forks**: 89 · **Open issues**: 117 · **Contributors**: 31
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 2 | 0 | 0 | 1 | 0 | 12 |
-| 90d | 2026-06-15 | 2 | 0 | 1 | 1 | 2 | 12 |
-| last180d | 2026-03-17 | 2 | 2 | 1 | 3 | 2 | 18 |
-| 360d | 2025-09-18 | 3 | 2 | 1 | 3 | 3 | 27 |
-| last720d | 2024-09-23 | 4 | 8 | 1 | 7 | 5 | 37 |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 2 | 0 | 0 | 1 | 0 | 12 |
+| 90d | 2026-06-16 | 2 | 0 | 1 | 1 | 2 | 12 |
+| last180d | 2026-03-18 | 2 | 2 | 1 | 3 | 2 | 18 |
+| 360d | 2025-09-19 | 3 | 2 | 1 | 3 | 3 | 27 |
+| last720d | 2024-09-24 | 4 | 8 | 1 | 7 | 5 | 37 |
 
 ## Release assets
 
@@ -70,21 +70,6 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [cppman-0.6.3-py3-none-any.whl](https://github.com/aitjcize/cppman/releases/download/v0.6.3/cppman-0.6.3-py3-none-any.whl) | 865.3 KiB | `other` |
 | [cppman-0.6.3.tar.gz](https://github.com/aitjcize/cppman/releases/download/v0.6.3/cppman-0.6.3.tar.gz) | 795.3 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **44** distros on [repology.org](https://repology.org/project/cppman). **2** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.5.9` | ⚠️ outdated |
-| Debian 14 | `0.5.9` | ⚠️ outdated |
-| Debian 13 | `0.5.7` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.5.9` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.5.6` | ⚠️ outdated |
-| Homebrew | `0.6.3` | ✅ latest |
-| Nix unstable | `0.5.9` | ⚠️ outdated |
-| Void | `0.6.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -95,4 +80,4 @@ Install metadata for cppman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:27:34Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:55:37Z._
