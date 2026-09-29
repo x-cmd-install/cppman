@@ -31,8 +31,8 @@ Overall score: **3.5 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (1/10) — Found 4/29 approved changesets -- score normalized to 1
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,438 · **Forks**: 89 · **Open issues**: 117 · **Contributors**: 31
+- **Stars**: 1,439 · **Forks**: 89 · **Open issues**: 117 · **Contributors**: 31
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-30 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-06-30 | 2 | 0 | 1 | 1 | 0 | 12 |
-| last180d | 2026-04-01 | 2 | 2 | 1 | 3 | 2 | 18 |
-| 360d | 2025-10-03 | 3 | 2 | 1 | 3 | 3 | 27 |
-| last720d | 2024-10-08 | 4 | 8 | 1 | 7 | 5 | 37 |
+| 30d | 2026-08-30 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-07-31 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 90d | 2026-07-01 | 2 | 0 | 1 | 1 | 0 | 12 |
+| last180d | 2026-04-02 | 2 | 2 | 1 | 3 | 2 | 18 |
+| 360d | 2025-10-04 | 3 | 2 | 1 | 3 | 3 | 27 |
+| last720d | 2024-10-09 | 4 | 8 | 1 | 7 | 5 | 37 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for cppman lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:54:20Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:22:51Z._
