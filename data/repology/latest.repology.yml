@@ -1,17 +1,10 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: homebrew
   srcname: cppman
-  binnames:
-    - cppman
   visiblename: cppman
-  version: 0.5.7
-  origversion: 0.5.7+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: C++ manual pages from cplusplus.com and cppreference.com
 - repo: aur
   srcname: cppman
   binname: cppman
@@ -24,26 +17,12 @@
     - rubo@aur
   licenses:
     - GPL3
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.9
-  origversion: 0.5.9+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
 - repo: aur
   srcname: cppman-git
   binname: cppman-git
   visiblename: cppman-git
-  version: v0.6.3.r0.g69c6ada
-  origversion: v0.6.3.r0.g69c6ada-1
+  version: 0.5.6.r5.ga3f3846
+  origversion: 0.5.6.r5.ga3f3846-1
   status: rolling
   summary: C++ 98/11/14/17/20 manual pages for Linux, with source from cplusplus.com and cppreference.com.
   maintainers:
@@ -179,7 +158,7 @@
   visiblename: app-doc/cppman
   version: 0.6.0
   origversion: null
-  status: outdated
+  status: legacy
   summary: C++ man pages for Linux, with source from cplusplus.com and cppreference.com
   maintainers:
     - esteve.varela@gmail.com
@@ -191,9 +170,9 @@
 - repo: gentoo
   srcname: app-doc/cppman
   visiblename: app-doc/cppman
-  version: 0.5.9
+  version: 0.6.3
   origversion: null
-  status: legacy
+  status: newest
   summary: C++ man pages for Linux, with source from cplusplus.com and cppreference.com
   maintainers:
     - esteve.varela@gmail.com
@@ -208,13 +187,6 @@
   version: 0.6.3
   origversion: null
   status: newest
-  summary: C++ manual pages from cplusplus.com and cppreference.com
-- repo: homebrew
-  srcname: cppman
-  visiblename: cppman
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: C++ manual pages from cplusplus.com and cppreference.com
 - repo: kali_rolling
   subrepo: main
@@ -263,7 +235,7 @@
   visiblename: app-doc/cppman
   version: 0.6.0
   origversion: null
-  status: outdated
+  status: legacy
   summary: C++ man pages for Linux, with source from cplusplus.com and cppreference.com
   maintainers:
     - esteve.varela@gmail.com
@@ -275,9 +247,9 @@
 - repo: liguros_develop
   srcname: app-doc/cppman
   visiblename: app-doc/cppman
-  version: 0.5.9
+  version: 0.6.3
   origversion: null
-  status: legacy
+  status: newest
   summary: C++ man pages for Linux, with source from cplusplus.com and cppreference.com
   maintainers:
     - esteve.varela@gmail.com
@@ -349,7 +321,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: cppman
   binnames:
     - cppman
@@ -363,7 +335,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: cppman
   binnames:
     - cppman
@@ -426,6 +398,34 @@
   visiblename: cppman
   version: 0.5.4
   origversion: 0.5.4+dfsg1-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.7
+  origversion: 0.5.7+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.9
+  origversion: 0.5.9+dfsg-2
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
