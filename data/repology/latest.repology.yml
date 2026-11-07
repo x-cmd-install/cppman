@@ -1,10 +1,73 @@
-- repo: homebrew
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: cppman
+  binnames:
+    - cppman
   visiblename: cppman
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: C++ manual pages from cplusplus.com and cppreference.com
+  version: 0.5.4
+  origversion: 0.5.4+dfsg1-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.7
+  origversion: 0.5.7+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.9
+  origversion: 0.5.9+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.4.9
+  origversion: 0.4.9+dfsg1-1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - doc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.0
+  origversion: 0.5.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - doc
 - repo: aur
   srcname: cppman
   binname: cppman
@@ -181,12 +244,33 @@
     - GPL-3
   categories:
     - app-doc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.7
+  origversion: 0.5.7+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - doc
 - repo: homebrew
   srcname: cppman
   visiblename: cppman
   version: 0.6.3
   origversion: null
   status: newest
+  summary: C++ manual pages from cplusplus.com and cppreference.com
+- repo: homebrew
+  srcname: cppman
+  visiblename: cppman
+  version: HEAD
+  origversion: null
+  status: rolling
   summary: C++ manual pages from cplusplus.com and cppreference.com
 - repo: kali_rolling
   subrepo: main
@@ -321,20 +405,6 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.7
-  origversion: 0.5.7+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: cppman
   binnames:
@@ -348,84 +418,14 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.4.9
-  origversion: 0.4.9+dfsg1-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - doc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.0
-  origversion: 0.5.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - doc
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot/main
   srcname: cppman
   binnames:
     - cppman
   visiblename: cppman
   version: 0.5.7
   origversion: 0.5.7+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - doc
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.4
-  origversion: 0.5.4+dfsg1-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.7
-  origversion: 0.5.7+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.9
-  origversion: 0.5.9+dfsg-2
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -546,6 +546,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.9
+  origversion: 0.5.9+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: cppman
   binnames:
     - cppman
