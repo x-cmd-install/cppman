@@ -24,6 +24,16 @@ x install cppman
 | ReStructuredText | 74 | 0 | 36 | 1 |
 | Bash | 16 | 0 | 4 | 1 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **2.6 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (1/10) — Found 4/29 approved changesets -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/aitjcize/cppman>
@@ -47,12 +57,12 @@ x install cppman
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last180d | 2026-05-20 | 2 | 1 | 1 | 1 | 2 | 15 |
-| 360d | 2025-11-21 | 3 | 2 | 1 | 3 | 3 | 27 |
-| last720d | 2024-11-26 | 4 | 8 | 1 | 6 | 4 | 37 |
+| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last180d | 2026-05-21 | 2 | 1 | 1 | 1 | 2 | 15 |
+| 360d | 2025-11-22 | 3 | 2 | 1 | 3 | 3 | 27 |
+| last720d | 2024-11-27 | 4 | 8 | 1 | 6 | 4 | 37 |
 
 ## Release 资产
 
@@ -85,4 +95,4 @@ cppman 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T07:27:45Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:43:07Z._
