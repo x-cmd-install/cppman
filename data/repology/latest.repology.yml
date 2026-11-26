@@ -1,3 +1,45 @@
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.9
+  origversion: 0.5.9+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.7
+  origversion: 0.5.7+dfsg-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - doc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.0
+  origversion: 0.5.0+dfsg1-1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - misc
 - repo: aur
   srcname: cppman
   binname: cppman
@@ -80,48 +122,6 @@
     - misc
 - repo: debian_unstable
   subrepo: sid/main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.9
-  origversion: 0.5.9+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.7
-  origversion: 0.5.7+dfsg-2
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - doc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.0
-  origversion: 0.5.0+dfsg1-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
   srcname: cppman
   binnames:
     - cppman
@@ -232,20 +232,6 @@
     - GPL-3
   categories:
     - app-doc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.5.3
-  origversion: 0.5.3+dfsg1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - universe/misc
 - repo: liguros_develop
   srcname: app-doc/cppman
   visiblename: app-doc/cppman
@@ -350,20 +336,6 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: cppman
-  binnames:
-    - cppman
-  visiblename: cppman
-  version: 0.4.9
-  origversion: 0.4.9+dfsg1-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
-  categories:
-    - doc
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: cppman
@@ -473,6 +445,20 @@
   status: outdated
   maintainers:
     - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: cppman
+  binnames:
+    - cppman
+  visiblename: cppman
+  version: 0.5.3
+  origversion: 0.5.3+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
     - czchen@debian.org
   categories:
     - universe/misc
