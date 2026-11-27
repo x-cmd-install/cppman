@@ -57,12 +57,12 @@ x install cppman
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-28 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last180d | 2026-05-30 | 2 | 0 | 1 | 1 | 2 | 15 |
-| 360d | 2025-12-01 | 3 | 2 | 1 | 3 | 3 | 27 |
-| last720d | 2024-12-06 | 4 | 8 | 1 | 6 | 4 | 37 |
+| 30d | 2026-10-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-29 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last180d | 2026-05-31 | 2 | 0 | 1 | 1 | 2 | 15 |
+| 360d | 2025-12-02 | 3 | 2 | 1 | 3 | 3 | 27 |
+| last720d | 2024-12-07 | 4 | 8 | 1 | 6 | 4 | 37 |
 
 ## Release 资产
 
@@ -70,21 +70,6 @@ x install cppman
 |------|-----:|----------|
 | [cppman-0.6.3-py3-none-any.whl](https://github.com/aitjcize/cppman/releases/download/v0.6.3/cppman-0.6.3-py3-none-any.whl) | 865.3 KiB | `other` |
 | [cppman-0.6.3.tar.gz](https://github.com/aitjcize/cppman/releases/download/v0.6.3/cppman-0.6.3.tar.gz) | 795.3 KiB | `native/unknown` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/cppman) 上共有 **42** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**33** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.5.9` | ⚠️ outdated |
-| Debian 14 | `0.5.9` | ⚠️ outdated |
-| Debian 13 | `0.5.7` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.5.9` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.5.6` | ⚠️ outdated |
-| Homebrew | `0.6.3` | ✅ latest |
-| Nix unstable | `0.5.9` | ⚠️ outdated |
-| Void | `0.6.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -95,4 +80,4 @@ cppman 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:54:47Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T09:17:20Z._
